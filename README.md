@@ -1,7 +1,4 @@
 # MasterLavaJato
-
-LOGIN
-
 ## MENUS
 
 CADASTRO
