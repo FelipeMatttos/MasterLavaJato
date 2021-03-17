@@ -38,7 +38,7 @@ class Login
         if (Bcrypt::check($this->senha, $usuario['senha'])) {
           session_start();
           $_SESSION['login'] = $usuario['login'];
-          $_SESSION['nome'] = $usuario['nome'];
+          $_SESSION['email'] = $usuario['email'];
           $_SESSION['id'] = $usuario['id'];
           return json_encode(array("sucesso" => true));
         } else {
